@@ -1,3 +1,7 @@
+/* 
+font-family: 'Poppins', sans-serif; */
+
+
 *{
   margin: 0;
   padding: 0;
@@ -10,38 +14,84 @@ body {
   text-align: center;
 }
 
-main{
-  margin: 1rem auto;
-  width:95%
+.container{
+  margin-bottom: 80px;
   
 }
 
 
 .contenedor-nombre{
-  
-  
   background: #88F086;
   border-radius: 30px;
   color: rgb(56, 56, 56);
+  margin: 50px auto;
+  width: 900px;
+  
+}
+
+.contenedor-nombre h1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  
 }
 
 .titulo-tarjeta{
-  display: flex;
   color:white;
-  font-size: 50px;
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  margin-top: 80px;
+  letter-spacing: 9px;
 }
 
-.nombreDeUsuario,
-.numeroDeTarjeta, 
-.pin
-{
-  display: flex;
-  padding: 1rem;
-  align-items: center;
+.container__target{
+  width: 70%;
+  margin: 50px auto 0 auto;
+}
+
+.nombreDeUsuario{
+  width: 60%;
+  padding: 0.8rem;
+  margin: 70px auto 0 auto;
+  text-align: center;
   background: #F059B4;
   color: white;
   border-style: none;
   border-radius: 11px;
+  font-size: 18px;
+  letter-spacing: 7px;
+}
+
+.numeroDeTarjeta, 
+.pin
+{
+  width: 40%;
+  padding: 0.8rem;
+  margin: 0 15px;
+  text-align: center;
+  background: #F059B4;
+  color: white;
+  border-style: none;
+  border-radius: 11px;
+  font-size: 15px;
+  letter-spacing: 2px;
+
+}
+
+
+
+.botonValidar{
+  display: block;
+  width:40%;
+  padding: 0.8rem;
+  border-style: none;
+  border-radius:11px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  margin: 0;
+  background: #F059B4;
+  color:white;
+  margin: 50px auto;
 }
 
 
@@ -51,23 +101,115 @@ main{
 
 
 .contenedor-tarjeta{
-
-
   background: #292929;
   border-radius: 30px;
   display: flex;
   flex-direction:column;
-  padding: 10rem 20rem;
+  width: 900px;
+  height: 600px;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 }
 
 
-.botonValidar{
-  background: #F059B4;
-  margin: 0.5rem;
-  color:white;
-  
+@media screen and (max-width: 1024px) {
+
 }
+
+@media screen and (max-width: 767px) {
+  .contenedor-nombre{
+    width: 600px;
+    border-radius: 15px;
+  }
+
+  .contenedor-tarjeta{
+    width: 600px;
+  }
+
+  .titulo-tarjeta{
+    margin: 80px 80px 0 80px;
+  }
+
+  .nombreDeUsuario{
+    font-size: 15px;
+  }
+
+  .numeroDeTarjeta, .pin, .botonValidar{
+    font-size: 10px;
+  }
+}
+
+
+@media screen and (max-width: 425px) {
+  .contenedor-nombre{
+    width: 300px;
+  }
+
+  .contenedor-tarjeta{
+    width: 300px;
+  }
+
+  .titulo-tarjeta{
+    margin: 60px 60px 0 60px;
+    font-size: 18px;
+  }
+
+  .nombreDeUsuario {
+    font-size: 12px;
+    letter-spacing: 1px;
+    width: 70%;
+  }
+
+  .numeroDeTarjeta, .pin, .botonValidar{
+    font-size: 12px;
+    letter-spacing: 1px;
+    width: 100%;
+    margin: 8px 0;
+
+  }
+
+  .container__target{
+    margin: 10px auto;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  .contenedor-nombre{
+    width: 300px;
+  }
+
+  .contenedor-tarjeta{
+    width: 300px;
+  }
+
+  .titulo-tarjeta{
+    margin: 60px 60px 0 60px;
+    font-size: 18px;
+  }
+
+  .nombreDeUsuario {
+    font-size: 12px;
+    letter-spacing: 1px;
+    width: 70%;
+  }
+
+  .numeroDeTarjeta, .pin, .botonValidar{
+    font-size: 12px;
+    letter-spacing: 1px;
+    width: 100%;
+    margin: 8px 0;
+
+  }
+
+  .container__target{
+    margin: 10px auto;
+  }
+
+}
+
+
 
 
 

@@ -2,11 +2,11 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tarjeta de crédito</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -18,13 +18,9 @@
   <main class="container">
 
     <div class="contenedor-nombre">
-
-      <h1>
-        Tienda Gamer
-      </h1>
-
-
-    </div><br>
+      <h1>Tienda Gamer</h1>  
+      
+    </div>
 
     <div id="contenedorTarjeta" class="contenedor-tarjeta">
 
@@ -32,12 +28,15 @@
         VALIDACIÓN DE TARJETA
       </h2> 
 
-      <input type="text" class="nombreDeUsuario" placeholder="Ingrese su nombre" id="nombreDeUsuario">
-      <input type="password" class="numeroDeTarjeta" placeholder="Ingrese su numero de tarjeta" id="numeroDeTarjeta"> 
-      <input type="text" class="pin" placeholder="numero" id="numero" >
+      <input type="text" class="nombreDeUsuario" placeholder="INGRESE SU NOMBRE" id="nombreDeUsuario">
 
-      <button type="submit" class="botonValidar" id="botonValidar"> Validar numero </button>
-      
+      <div class = "container__target">
+        <input type="password" class="numeroDeTarjeta" placeholder="NÚMERO DE TARJETA" id="numeroDeTarjeta"> 
+        <input type="text" class="pin" placeholder="CVV" id="numero" >
+  
+        <button type="submit" class="botonValidar" id="botonValidar"> VALIDAR </button>
+      </div>
+
     </div>
 
         <div  id="segundaPantalla" class="segundaPantalla" style="display:none" >
@@ -48,5 +47,3 @@
 
   <script src="index.js" type="module"></script>
 </body>
-
-</html>
