@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Tarjeta de crédito</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+ 
+
+
+  <main class="container">
+
+    <div class="contenedor-nombre">
+
+      <h1>
+        Tienda Gamer
+      </h1>
+
+
+    </div><br>
+
+    <div id="contenedorTarjeta" class="contenedor-tarjeta">
+
+      <h2 class="titulo-tarjeta">
+        VALIDACIÓN DE TARJETA
+      </h2> 
+
+      <input type="text" class="nombreDeUsuario" placeholder="Ingrese su nombre" id="nombreDeUsuario">
+      <input type="password" class="numeroDeTarjeta" placeholder="Ingrese su numero de tarjeta" id="numeroDeTarjeta"> 
+      <input type="text" class="pin" placeholder="numero" id="numero" >
+
+      <button type="submit" class="botonValidar" id="botonValidar"> Validar numero </button>
+      
+    </div>
+
+        <div  id="segundaPantalla" class="segundaPantalla" style="display:none" >
+          <p>Ingresaste el numero de tarjeta</p>
+          <button class="botonOtro" id="boton2">Validar otra Tarjeta</button>
+          </div>
+  </main>
+
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>

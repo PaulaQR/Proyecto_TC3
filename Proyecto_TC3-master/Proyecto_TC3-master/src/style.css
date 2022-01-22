@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #444444;
+  text-align: center;
+}
+
+main{
+  margin: 1rem auto;
+  width:95%
+  
+}
+
+
+.contenedor-nombre{
+  
+  
+  background: #88F086;
+  border-radius: 30px;
+  color: rgb(56, 56, 56);
+}
+
+.titulo-tarjeta{
+  display: flex;
+  color:white;
+  font-size: 50px;
+}
+
+.nombreDeUsuario,
+.numeroDeTarjeta, 
+.pin
+{
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  background: #F059B4;
+  color: white;
+  border-style: none;
+  border-radius: 11px;
+}
+
+
+::placeholder{
+  color: white;
+}
+
+
+.contenedor-tarjeta{
+
+
+  background: #292929;
+  border-radius: 30px;
+  display: flex;
+  flex-direction:column;
+  padding: 10rem 20rem;
+
+}
+
+
+.botonValidar{
+  background: #F059B4;
+  margin: 0.5rem;
+  color:white;
+  
+}
+
+
+
+
+
