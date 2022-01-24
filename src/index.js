@@ -21,6 +21,7 @@ const numeroDeTarjeta = document.getElementById("numeroDeTarjeta").value;
 
     document.getElementById("segundaPantalla").style.display = "block";
   });
+  
 })()
 
 
