@@ -18,8 +18,8 @@ function validator(numero_tarjeta){
   this.valid = false;
   this.numValid = /[^0-9-\s]+/.test(numero_tarjeta); 
   this.isvalid = () => {
-    if (this.cadena === true) {
-      alert("Ingrese solo caracteres de tipo numerico en este campo");
+    if (this.numValid === true) {
+      return alert("Ingrese solo caracteres de tipo numerico en este campo");
     }
 } 
 
