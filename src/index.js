@@ -25,3 +25,11 @@ const numeroDeTarjeta = document.getElementById("numeroDeTarjeta").value;
 })()
 
 
+  const segundaPantalla = document.getElementById('segundaPantalla');
+
+  segundaPantalla.addEventListener('click', _ => {
+     // el _ es para indicar la ausencia de parametros
+      location.reload(contenedorTarjeta);
+
+  });
+  
