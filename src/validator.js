@@ -15,7 +15,8 @@ function validator(numero_tarjeta){
   this.suma = 0;
   //Aqui aprendimos que son las expresiones regulares e HTML 
   // El método test() ejecuta la búsqueda de una ocurrencia entre una expresión regular y una cadena especificada. Devuelve true o false.
-  this.numValid = /[^0-9-\s]+/.test(numero_tarjeta); // regresa un booleano
+  this.valid = false;
+  this.numValid = /[^0-9-\s]+/.test(numero_tarjeta); 
   this.isvalid = () => {
     if (this.cadena === true) {
       alert("Ingrese solo caracteres de tipo numerico en este campo");
