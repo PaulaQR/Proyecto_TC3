@@ -1,3 +1,11 @@
+/*
+Aprendimos a trabajar con objetos:
+Un objeto es una colección de propiedades, 
+y una propiedad es una asociación entre un nombre (o clave) y un valor.
+El valor de una propiedad puede ser una función, en cuyo caso la propiedad es conocida como un método.
+Además de los objetos que están predefinidos en el navegador, puedes definir tus propios objetos.
+*/
+
 function validator(numero_tarjeta){
 
   let cadena = this.numero_tarjeta;
