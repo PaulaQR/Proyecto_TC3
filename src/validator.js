@@ -1,6 +1,3 @@
-
-//Identificar los caracteres
-
 function validator(numero_tarjeta){
 
   let cadena = this.numero_tarjeta;
