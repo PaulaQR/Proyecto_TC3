@@ -5,10 +5,7 @@ hacer una compra en  la tienda, en este caso es una TIENDA GAMER
 
 ## PROTOTIPOS 
 
-<img src="./assets/Frame 1.png"/>
-<img src="./assets/Frame 2.png"/>
-<img src="./assets/Frame 3.png"/>
-<img src="./assets/Frame 4.png"/>
+<img src="./assets/Prototipo.png"/>
 
 
 ## Despliegue  o descarga 🚀
