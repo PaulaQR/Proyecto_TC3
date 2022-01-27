@@ -34,7 +34,7 @@ si tú tarjeta es VALIDA o INVALIDA.
 
 ### Prototipo
 * [FIGMA]
-### Funcionalidad - Estrucruta - Diseño
+### Funcionalidad - Estructura - Diseño
 * [JAVASCRIPT]
 * [HTML]
 * [CSS]
