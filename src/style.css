@@ -111,16 +111,43 @@ body {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 }
+.segundaPantalla{
+  background: #292929;
+  border-radius: 30px;
+  display: flex;
+  flex-direction:column;
+  width: 900px;
+  height: 600px;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-sizing: border-box;
+
+}
 
 .titulo-tarjeta2{
   color:white;
   font-size: 30px;
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
-  margin-top: 0px;
+  margin-top: 10px;
   letter-spacing: 9px;
+  padding: 5rem;
+ 
 }
 
+.mensajeF{
+  width: 40%;
+  padding: 0.8rem;
+  margin: 0 15px;
+  text-align: center;
+  background: #F059B4;
+  color: white;
+  border-style: none;
+  border-radius: 11px;
+  font-size: 15px;
+  letter-spacing: 2px;
+
+}
 
 #boton2{
   display: block;
@@ -135,20 +162,6 @@ body {
   color:white;
   margin: 50px auto;
 }
-
-.segundaPantalla{
-  background: #292929;
-  border-radius: 30px;
-  display: flex;
-  flex-direction:column;
-  width: 900px;
-  height: 600px;
-  margin: auto;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  box-sizing: border-box;
-
-}
-
 
 
 @media screen and (max-width: 1024px) {

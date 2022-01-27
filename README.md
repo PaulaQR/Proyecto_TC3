@@ -11,6 +11,8 @@ hacer una compra en  la tienda, en este caso es una TIENDA GAMER
 ## Despliegue  o descarga 🚀
 
 [GH-PAGES] 
+https://github.com/PaulaQR/Proyecto_TC3
+
 
 Puedes ir a este enlace para ver nuestra aplicacion directamente, 
 Tambien puedes obtener el código clonandolo o descargando el ZIP 
@@ -28,7 +30,7 @@ si tú tarjeta es VALIDA o INVALIDA
 
 * [JavaScript|HTML|CSS ](https://platzi.com/clases/1050-programacion-basica/5104-que-es-htmlcssjs/)
 * [VSC](https://code.visualstudio.com/)
-
+* [Figma]
 
 
 ## Autores ✒️
