@@ -1,7 +1,13 @@
 # DUPLA TC3-VALIDADOR
 
+## REPOSITORIO DE TARJETA DE VALIDACIÓN
+
 Nuestro proyecto se basa en una tarjeta de validación luego de 
 hacer una compra en  la tienda, en este caso es una TIENDA GAMER 
+
+### RESPONSIVE
+
+El DISEÑO lo adecuamos para que se viera en version MOVIL, TABLET y DESKTOP
 
 ## PROTOTIPOS 
 
@@ -10,8 +16,7 @@ hacer una compra en  la tienda, en este caso es una TIENDA GAMER
 
 ## Despliegue  o descarga 🚀
 
-[GH-PAGES] 
-https://github.com/PaulaQR/Proyecto_TC3
+-[ValidaciónTarjeta](https://PaulaQR.github.io/Proyecto_TC3)
 
 
 Puedes ir a este enlace para ver nuestra aplicacion directamente, 
@@ -22,15 +27,19 @@ Tambien puedes obtener el código clonandolo o descargando el ZIP
 
 Vas a ingresar tú nombre de usuario,
 Ingresas los datos de tú tarjeta al finalizar oprimes el botón de Validar y te saldrá 
-si tú tarjeta es VALIDA o INVALIDA  
+si tú tarjeta es VALIDA o INVALIDA.
 
 
 ## Construido con 🛠️
 
-
-* [JavaScript|HTML|CSS ](https://platzi.com/clases/1050-programacion-basica/5104-que-es-htmlcssjs/)
-* [VSC](https://code.visualstudio.com/)
-* [Figma]
+### Prototipo
+* [FIGMA]
+### Funcionalidad - Estrucruta - Diseño
+* [JAVASCRIPT]
+* [HTML]
+* [CSS]
+### Editor de texto
+* [VISUAL_STUDIO_CODE]
 
 
 ## Autores ✒️
