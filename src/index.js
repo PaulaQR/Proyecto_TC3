@@ -3,9 +3,9 @@ console.log(validator);
 
 //Selectores
 
-const nombreDeUsuario = document.getElementById("nombreDeUsuario").value;
+const nombreDeUsuario = document.getElementById("nombreDeUsuario").value; 
 const numeroDeTarjeta = document.getElementById("numeroDeTarjeta");
-
+const numero = document.getElementById("numero").value;
 //Eventos
 
 //Boton que  genera una alerta depende el dato que se ingrese, si es valido o invalido
@@ -16,7 +16,8 @@ const numeroDeTarjeta = document.getElementById("numeroDeTarjeta");
   botonValidar.addEventListener("click", () => {
 
     validator.isValid(numeroDeTarjeta.value)
-
+  
+  
     document.getElementById("contenedorTarjeta").style.display = "none";
     document.getElementById("segundaPantalla").style.display = "block";
   });

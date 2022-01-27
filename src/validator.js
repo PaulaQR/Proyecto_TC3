@@ -3,7 +3,6 @@ Aprendimos a trabajar con objetos:
 Un objeto es una colección de propiedades, 
 y una propiedad es una asociación entre un nombre (o clave) y un valor.
 El valor de una propiedad puede ser una función, en cuyo caso la propiedad es conocida como un método.
-Además de los objetos que están predefinidos en el navegador, puedes definir tus propios objetos.
 */
 function isValid(numero_tarjeta){
   let  longitud = numero_tarjeta.length; 
@@ -20,7 +19,6 @@ function isValid(numero_tarjeta){
       return alert("Ingrese solo caracteres de tipo numerico en este campo");
     }
 } 
-
 // Busca de manera general del 0 al 9 y si no esta lo elimina 
 numero_tarjeta = numero_tarjeta.replace(/\D/g, "");
 
@@ -30,8 +28,7 @@ numero_tarjeta = numero_tarjeta.replace(/\D/g, "");
       }
       /*
         charAt()
-        Los caracteres de una cadena se indexan de izquierda a derecha.
-        El índice del primer caracter es 0,
+        --Elimina el ultimo digito 
         y el índice del último caracter en una cadena llamada nombreCadena es nombreCadena.length - 1.
         Si el indice que usted proporciona está fuera del rango, JavaScript devuelve una cadena vacía.
         */
@@ -64,8 +61,6 @@ numero_tarjeta = numero_tarjeta.replace(/\D/g, "");
      alert("El número de tarjeta no es válido");
     }
    
-
-   
   }
   
   const validator = {
@@ -73,7 +68,7 @@ numero_tarjeta = numero_tarjeta.replace(/\D/g, "");
   }
 
   function maskify(numero_tarjeta){
-    
+
 
     //Extraen los ultimos tres numeros 
     let ultimosNumeros = numero_tarjeta.substring(numero_tarjeta.length-4);

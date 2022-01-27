@@ -112,6 +112,43 @@ body {
 
 }
 
+.titulo-tarjeta2{
+  color:white;
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  margin-top: 0px;
+  letter-spacing: 9px;
+}
+
+
+#boton2{
+  display: block;
+  width:40%;
+  padding: 0.8rem;
+  border-style: none;
+  border-radius:11px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  margin: 0;
+  background: #F059B4;
+  color:white;
+  margin: 50px auto;
+}
+
+.segundaPantalla{
+  background: #292929;
+  border-radius: 30px;
+  display: flex;
+  flex-direction:column;
+  width: 900px;
+  height: 600px;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-sizing: border-box;
+
+}
+
 
 
 @media screen and (max-width: 1024px) {
