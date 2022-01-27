@@ -9,7 +9,7 @@ hacer una compra en  la tienda, en este caso es una TIENDA GAMER
 
 El DISEÑO lo adecuamos para que se viera en version MOVIL, TABLET y DESKTOP
 
-## PROTOTIPOS 
+## PROTOTIPO
 
 <img src="./assets/Prototipo.png"/>
 
