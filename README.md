@@ -16,7 +16,7 @@ El DISEÑO lo adecuamos para que se viera en version MOVIL, TABLET y DESKTOP
 
 ## Despliegue  o descarga 🚀
 
-
+[APPLICACION-TARJETA-DE-VALIDACIÓN](https://PaulaQR.github.io/Proyecto_TC3/src)
 
 Puedes ir a este enlace para ver nuestra aplicacion directamente, 
 Tambien puedes obtener el código clonandolo o descargando el ZIP 
