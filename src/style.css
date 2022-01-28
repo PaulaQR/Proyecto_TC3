@@ -94,6 +94,13 @@ body {
   margin: 50px auto;
 }
 
+button:hover{
+  background-color: turquoise ;
+}
+
+button:active{
+  background-color: #F059B4;
+}
 
 ::placeholder{
   color: white;
