@@ -11,7 +11,7 @@ let botonValidar = document.getElementById("botonValidar");
     if(numeroFinal.length !== 16){
       return alert("La tarjeta tiene que tener 16 numeros");
     }
-   
+  
       //utlizar innerHTML
    let isValid = validator.isValid(numeroFinal)
 
