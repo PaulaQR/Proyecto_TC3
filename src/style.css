@@ -143,10 +143,12 @@ button:active{
 }
 
 .mensajeF{
-  width: 40%;
-  padding: 0.8rem;
-  margin: 0 15px;
+  width: 600px;
+  height: 130px;
+  align-content: center;
   text-align: center;
+  padding: 0.8rem;
+  margin: auto;
   background: #F059B4;
   color: white;
   border-style: none;
@@ -155,6 +157,8 @@ button:active{
   letter-spacing: 2px;
 
 }
+
+
 
 #boton2{
   display: block;

@@ -12,15 +12,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
   <link rel="canonical" href="https://PaulaQR.github.io/Proyecto_TC3/src">
-  <link rel="favicon" href="https://PaulaQR.github.io/Proyecto_TC3/src/assets/icon.png">
-  <link rel="apple-touch-icon" href="https://PaulaQR.github.io/Proyecto_TC3/src/assets/icon.png" >
-  <meta name="theme-color" content="#444444">
-  <meta name="twitter:card" content="summary">
-  <meta property="og:type" content="website" >
-  <meta property="og:title" name="twitter:title" content="TARJETA DE VALIDACION">
-  <meta property=og:description name="twitter:description" content="Hola bienvenid@ a nuestra aplicacion: TARJETA DE VALIDACION">
-  <meta property="og:image" name="twitter:image" content="https://PaulaQR.github.io/Proyecto_TC3/src/assets/Prototipo.png">
-  <meta property="og:url" name="twitter:url" content="https://PaulaQR.github.io/Proyecto_TC3/src">
 </head>
 
 <body>
@@ -52,7 +43,12 @@
       <h2 class="titulo-tarjeta2">
         VALIDACIÓN DE TARJETA
       </h2> 
-      <input type= "text" class = "mensajeF" id ="mensaje">
+      <div class="mensajeF">
+        <p id="nombre-usuario-final"></p>
+        <p id="mensaje">EL NUMERO QUE INGRESASTE ES:</p>
+      <p id="ultimos-cuatro" ></p>
+      <p id="estado-validez"></p>
+      </div>
       <button class="botonOtro" id="boton2">VALIDAR OTRA TARJETA</button>
       </div>
 
