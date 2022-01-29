@@ -143,8 +143,8 @@ button:active{
 }
 
 .mensajeF{
-  width: 600px;
-  height: 130px;
+  width: 500px;
+  height: 100px;
   align-content: center;
   text-align: center;
   padding: 0.8rem;
@@ -154,7 +154,7 @@ button:active{
   border-style: none;
   border-radius: 11px;
   font-size: 15px;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
 
 }
 
