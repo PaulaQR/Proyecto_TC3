@@ -6,27 +6,16 @@ function isValid(numero_tarjeta) {
   let cifra = null;
   let cifra_cad = null;
   let suma = 0;
-  // Expresiones regulares e HTML /[^0-9-\s]+/
+  // Expresiones regulares en HTML /[^0-9-\s]+/
   // El método test() ejecuta la búsqueda de una ocurrencia entre una expresión regular y una cadena especificada. Devuelve true o false.
   let numValid = /[^0-9-\s]+/.test(numero_tarjeta);
-
+  //Condicion para que ingreses solo caracteres de tipo numerico 
   if (numValid === true) {
     return alert("Ingrese solo caracteres de tipo numerico en este campo");
   }
-
-  // Busca de manera general del 0 al 9 y si no esta lo elimina
- // numero_tarjeta = numero_tarjeta.replace(/\D/g, "");
- //cambiar
+ 
+  //Invertir numeros 
   numero_tarjeta = numero_tarjeta.split("").reverse().join("")
-  console.log(numero_tarjeta)
-  //Para invertir numeros vamos a utlizar un for
-  /*
-        charAt()
-        --Elimina el ultimo digito 
-        y el índice del último caracter en una cadena llamada nombreCadena es nombreCadena.length - 1.
-        Si el indice que usted proporciona está fuera del rango, JavaScript devuelve una cadena vacía.
-        */
-
   //Recorremos el elemento numero_Tarjeta
   for (let i = 1; i < longitud; i += 2) {
     cifra = parseInt(numero_tarjeta.charAt(i)) * 2;
@@ -56,7 +45,7 @@ function isValid(numero_tarjeta) {
     return false
   }
 }
-
+//Enmascara los primeros 12 numeros
 function maskify(numeroTarjeta) {
   if (numeroTarjeta.length <= 4) {
     return numeroTarjeta;
@@ -70,7 +59,6 @@ function maskify(numeroTarjeta) {
   //retorna un objeto
   return numeroEnmascarado;
 }
-
 
 const validator = {
   isValid,

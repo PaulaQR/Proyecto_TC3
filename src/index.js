@@ -11,11 +11,10 @@ let botonValidar = document.getElementById("botonValidar");
     if(numeroFinal.length !== 16){
       return alert("La tarjeta tiene que tener 16 numeros");
     }
-  
-      //utlizar innerHTML
+    document.getElementById("ultimos-cuatro").innerHTML = validator.maskify(numeroFinal);
    let isValid = validator.isValid(numeroFinal)
 
-   
+    //Condicion si es valida o invalida 
    if (isValid){
      document.getElementById("estado-validez").innerHTML = "ES VALIDA";
      
@@ -23,14 +22,15 @@ let botonValidar = document.getElementById("botonValidar");
       document.getElementById("estado-validez").innerHTML = "ES INVALIDA";
       
     }
+    //Nos muestra el nombre de usuario. 
     document.getElementById("nombre-usuario-final").innerHTML = nombreDeUsuario.value;
    
-
-   document.getElementById("contenedorTarjeta").style.display = "none";
+  //bloqueo de segunda pantalla hasta que no se cumpla con los campos requeridos.    
+  document.getElementById("contenedorTarjeta").style.display = "none";
   document.getElementById("segundaPantalla").style.display = "block";
   });
     
-  
+  //Recarga a la primera pantalla
   const segundaPantalla = document.getElementById('segundaPantalla');
 
   segundaPantalla.addEventListener('click', () => {
