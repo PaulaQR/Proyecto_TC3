@@ -3,7 +3,12 @@
 ## REPOSITORIO DE TARJETA DE VALIDACIÓN
 
 Nuestro proyecto se basa en una tarjeta de validación luego de 
-hacer una compra en  la tienda, en este caso es una TIENDA GAMER 
+hacer una compra en  la tienda de accesorios para personas interesadas en el mundo de los videojuegos 
+o  de  accesorios gamer
+
+### SOLUCION DEL PROBLEMA
+Pueden hacer su pago virtual para hacerles ahorrar tiempo e ir a la tienda personalmente.
+
 
 ### RESPONSIVE
 
