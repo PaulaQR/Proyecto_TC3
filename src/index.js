@@ -35,7 +35,7 @@ let botonValidar = document.getElementById("botonValidar");
   const segundaPantalla = document.getElementById('segundaPantalla');
 
   segundaPantalla.addEventListener('click', () => {
-     // el _ es para indicar la ausencia de parametros
+     
       location.reload();
 
   });
