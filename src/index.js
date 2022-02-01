@@ -2,7 +2,7 @@ import validator from "./validator.js";
 //Selectores
 let numeroDeTarjeta = document.getElementById("numeroDeTarjeta")
 let nombreDeUsuario = document.getElementById("nombreDeUsuario")
-//Eventos primera prueba
+
 //Boton que  genera una alerta depende el dato que se ingrese, si es valido o invalido
 let botonValidar = document.getElementById("botonValidar");
 

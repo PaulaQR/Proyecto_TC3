@@ -1,5 +1,3 @@
-
-//Aprendimos a trabajar con objetos:
 function isValid(numero_tarjeta) {
   let longitud = numero_tarjeta.length;
 
